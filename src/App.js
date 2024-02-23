@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import FlipBook from './FlipBook';
 
 function App() {
+  const pdfPath = './Book 7_TCD_AK_LP_WS.pdf'; // Replace with your actual PDF file path
+  const totalPages = 10; // Replace with the total number of pages in your PDF
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Sample FlipBook</h1>
       </header>
+      <main>
+        <FlipBook pdfPath={pdfPath} totalPages={totalPages} />
+      </main>
     </div>
   );
 }
