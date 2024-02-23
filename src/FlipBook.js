@@ -25,7 +25,7 @@ const FlipBook = ({ pdfPath, totalPages }) => {
     <div className="flip-book-container">
       <HTMLFlipBook
         width={600}
-        height={400}
+        height={800}
         showCover
         flipOnTouch
         flipOnWheel
