@@ -14,12 +14,6 @@ const FlipBook = ({ pdfPath, totalPages }) => {
   };
   
 
-  useEffect(()=>{
-    console.log(pdfPath,"dasdasd")
-
-  },[])
-  
-
 
   return (
     <div className="flip-book-container">
