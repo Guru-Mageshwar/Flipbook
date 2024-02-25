@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App" >
       <header className="App-header">
-        <h1>Flip Book</h1>
       </header>
       <main>
         <FlipBook pdfPath={pdf} totalPages={totalPages} />
