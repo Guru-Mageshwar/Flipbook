@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import HTMLFlipBook from 'react-pageflip';
 import { pdfjs,Document, Page } from 'react-pdf';
-import './FlipBook.css';
+import './FlipBook.css'; 
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
