@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Flipbook/static/css/main.0a09901b.css",
+    "main.js": "/Flipbook/static/js/main.6fe67e76.js",
+    "static/js/453.5d132217.chunk.js": "/Flipbook/static/js/453.5d132217.chunk.js",
+    "static/media/THE UNITY TREE BLUE.pdf": "/Flipbook/static/media/THE UNITY TREE BLUE.45dc86f497b109c49fa7.pdf",
+    "index.html": "/Flipbook/index.html",
+    "main.0a09901b.css.map": "/Flipbook/static/css/main.0a09901b.css.map",
+    "main.6fe67e76.js.map": "/Flipbook/static/js/main.6fe67e76.js.map",
+    "453.5d132217.chunk.js.map": "/Flipbook/static/js/453.5d132217.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a09901b.css",
+    "static/js/main.6fe67e76.js"
+  ]
+}
