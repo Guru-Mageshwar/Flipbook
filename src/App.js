@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import pdf from './The Unity Tree.pdf';
+import pdf from './THE UNITY TREE BLUE.pdf';
 import FlipBook from './FlipBook';
 import './App.css'
 
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App" >
       <header className="App-header">
-        <h1>Sample FlipBook</h1>
+        <h1>Flip Book</h1>
       </header>
       <main>
         <FlipBook pdfPath={pdf} totalPages={totalPages} />
